@@ -252,7 +252,7 @@ input[type='checkbox']:checked {
   padding-right: 3px;
 }
 
-.content__card-link{
+.content__card-link {
   text-decoration: none;
   color: #fff;
   display: block;
@@ -325,7 +325,6 @@ input[type='checkbox']:checked {
 }
 
 .preloader {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
