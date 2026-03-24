@@ -108,13 +108,8 @@ ol {
   cursor: pointer;
 }
 
-
-.search-form__label:has(.search-form__textfield:focus-visible) {
-  border: 1px solid #fff;
-}
-
 .search-form__textfield {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   color: #fff;
@@ -153,17 +148,12 @@ ol {
   padding: 1px;
 }
 
-.search-form__pseudo-checkbox::after {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: "";
   display: block;
   background-color: #fff;
   width: 100%;
   height: 100%;
-  opacity: 0;
-}
-
-.search-form__pseudo-checkbox:checked {
-  opacity: 1;
 }
 
 input[type='checkbox']:checked {
@@ -183,7 +173,7 @@ input[type='checkbox']:checked {
 }
 
 .button {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 700;
   color: #fff;
@@ -284,6 +274,7 @@ input[type='checkbox']:checked {
 }
 
 .content__video-card-title {
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
